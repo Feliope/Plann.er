@@ -100,7 +100,7 @@ export async function createTrip(app: FastifyInstance) {
 
    console.log(nodemailer.getTestMessageUrl(message));
 
-   return { tripID: trip.id };
+   return { tripId: trip.id };
   }
  );
 }
