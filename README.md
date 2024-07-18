@@ -1,13 +1,13 @@
 ___________________________________________________________________________________________________________________________________________________________
-<span font-size="" align="center"><strong>Plann.er</strong></span>
+<h1><strong>Plann.er</strong></h1>
 
 <div>
-  <h2>Descrição</h2>
+  <h2>:fleur_de_lis:Descrição</h2>
   O Plann.er é um aplicativo desenvolvido durante a Next Level Week 16, organizada pela Rocketseat. O projeto é um planejador de viagens que permite aos usuários adicionar convidados e criar atividades relacionadas a cada dia da viagem, proporcionando uma experiência organizada e intuitiva para planejar suas aventuras.
 </div>
 
 <div>
-  <h2>Funcionalidades</h2>
+  <h2>:white_check_mark:Funcionalidades</h2>
 
   * `Adicionar convidados:` Adicione pessoas à sua viagem para mantê-las informadas sobre os planos.
   * `Criar atividades:` Planeje atividades detalhadas para cada dia da viagem.
@@ -16,7 +16,7 @@ ________________________________________________________________________________
 </div>
 
 <div>
-  <h2>Tecnologias Utilizadas</h2>
+  <h2>:wrench:Tecnologias Utilizadas</h2>
 
   * `TypeScript:` Linguagem de programação para um desenvolvimento mais robusto e seguro.
   * `Node.js:` Ambiente de execução para JavaScript no backend.
@@ -27,11 +27,27 @@ ________________________________________________________________________________
 </div>
 
 <div>
-  <h2>Como executar o projeto</h2>
+  <h2>:question:Como executar o projeto</h2>
   
   * `Clone o repositório:` Clone o repositório completo com `git clone`.
   * `Instale as dependências:` Instale as dependências necessárias com `npm install` ou `yarn install`.
-  * `Crie um .env:` Crie um .env na 
-  * `Rode o projeto separadamente:`Utiliza Prisma Studio para gerenciar e visualizar o banco de dados.
-  
+  * `Crie um .env:` Crie um .env na pasta `backend` e adicione as variáveis de ambiente conforme o exemplo fornecido em `.env.example`
+  * `Rode o projeto separadamente:` Entre nos diretórios `backend` e `frontend`, e rode os projetos separadamente com `npm run dev` ou `yarn dev`. 
 </div>
+
+<div>
+  <h2>:memo:Contribuição</h2>
+  
+  Contribuições são bem-vindas! Sinta-se à vontade para abrir issues e pull requests para melhorar o projeto.
+  
+  * `1º Passo:` Fork o repositório.
+  * `2º Passo:` Crie uma branch para sua feature (git checkout -b feature/nova-feature).
+  * `3º Passo:` Commit suas mudanças (git commit -m 'Adiciona nova feature').
+  * `4º Passo:` Push para a branch (git push origin feature/nova-feature).
+  * `5º Passo:` Abra um Pull Request.
+</div>
+</br>
+</br>
+
+<h5 align="center">Desenvolvido com ❤ durante a Next Level Week 16 da Rocketseat.</h5>
+
