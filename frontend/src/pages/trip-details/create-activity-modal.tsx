@@ -37,7 +37,7 @@ export function CreateActivityModal({ closeCreateActivityModal }: CreateActivity
               Cadastrar atividade
             </h2>
             <button type="button" onClick={closeCreateActivityModal}>
-              <X className="size-5 text-zinc-400" />
+              <X className="size-5 text-zinc-400 hover:text-zinc-200" />
             </button>
           </div>
           <p className="text-sm text-zinc-400">

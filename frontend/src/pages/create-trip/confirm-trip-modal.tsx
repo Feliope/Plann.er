@@ -35,7 +35,7 @@ export function ConfirmTripModal({
               Confirmar criação de viagem
             </h2>
             <button type="button" onClick={closeConfirmTripModal}>
-              <X className="size-5 text-zinc-400" />
+              <X className="size-5 text-zinc-400 hover:text-zinc-200"/>
             </button>
           </div>
           <p className="text-sm text-zinc-400">

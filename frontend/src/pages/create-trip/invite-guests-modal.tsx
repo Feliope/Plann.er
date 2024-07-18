@@ -22,7 +22,7 @@ export function InviteGuestsModal({
           <div className="flex items-center justify-between">
             <h2 className="text-lg font-semibold">Selecionar convidados</h2>
             <button type="button" onClick={closeGuestsModal}>
-              <X className="size-5 text-zinc-400" />
+              <X className="size-5 text-zinc-400 hover:text-zinc-200" />
             </button>
           </div>
           <p className="text-sm text-zinc-400">
@@ -43,7 +43,7 @@ export function InviteGuestsModal({
                   type="button"
                   onClick={() => removeEmailFromInvites(email)}
                 >
-                  <X className="size-4 text-zinc-400" />
+                  <X className="size-4 text-zinc-400 hover:text-zinc-200"/>
                 </button>
               </div>
             );
